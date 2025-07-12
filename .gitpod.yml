@@ -6,4 +6,4 @@ tasks:
       curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
       unzip awscliv2.zip
       sudo ./aws/install
-      cd /workspace/aws_testin
+      cd $THETA_WORKSPACE_ROOT
