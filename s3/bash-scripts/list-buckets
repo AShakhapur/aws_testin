@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "== listing buckets"
+
+aws s3 ls
